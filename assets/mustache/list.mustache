@@ -1,0 +1,20 @@
+<thead>
+    <th>Manufacturer</th>
+    <th>Name</th>
+    <th>Price</th>
+</thead>
+<tbody>
+    {{#cars:i }}
+    <tr data-id="{{ i }}">
+        <td>{{ manufacturer }}</td>
+        <td>{{ name }}</td>
+        <td>{{ price }} &euro;</td>
+    </tr>
+    {{ else }}
+    <tr>
+        <td col-span="3">
+            No Data available.
+        </td>
+    </tr>
+    {{/cars }}
+</tbody>

@@ -1,0 +1,9 @@
+{
+    "cars": [
+        {
+            "name": "Z3",
+            "manufacturer": "BMW",
+            "price": 30000
+        }
+    ]
+}
